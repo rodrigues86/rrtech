@@ -1,15 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>RR Tech</title>
-
-    <base href="/" />
-
-    <meta name="google-site-verification" content="ZJdv1U2zo4UrUhmXEVoNDzGYt4bQxEfVWL-7-jhPMGs" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RR Tech</title>
+  <style>
+    body {
+      background: #181a20;
+      color: #f1f1f1;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 480px;
+      margin: 40px auto;
+      padding: 24px;
+      background: #23262f;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 24px;
+      color: #ffd700;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 24px;
+    }
+    ul li {
+      font-size: 17px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .info {
+      font-size: 15px;
+      margin-bottom: 12px;
+      color: #bdbdbd;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .note {
+      font-size: 14px;
+      color: #8de99a;
+      background: #23262f;
+      border-left: 4px solid #ffd700;
+      padding: 12px;
+      border-radius: 8px;
+      margin-top: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Budfier</h1>
+    <ul>
+      <li>💰 Controle seus gastos de forma prática, rápida e de graça</li>
+      <li>📲 Receba notificações automaticamente assim que realizar um pagamento</li>
+      <li>⚖️ Defina seu limite de gastos e tenha uma barra de progresso para monitorar</li>
+      <li>💵 Se fizer um pagamento em $ dolar ou euro €, o app já converte o valor em reais para você 😀</li>
+    </ul>
+    <div class="info">⚙️ Você deve permitir que seu dispositivo receba notificações do Budfier</div>
+    <div class="info">⚙️ Você deve permitir que seu dispositivo receba notificações do seu app do seu banco que realiza seus pagamentos</div>
+    <div class="note">
+      💡 Fique tranquilo que seus cálculos e gastos não são salvos em nenhuma nuvem tampouco dados de contas e cartão de crédito, pois não são nem pedidos em nenhum momento.<br>
+      Deve ser configurado para permitir notificações de pagamentos a crédito do seu banco, pois por elas são feitos os cálculos.
+    </div>
+  </div>
+  <div style="
+  width: 100%;
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+  margin-top: 32px;
+  padding-bottom: 16px;
+  letter-spacing: 1px;
+">
+  by RR Tech
+</div>
+</body>
 </html>
